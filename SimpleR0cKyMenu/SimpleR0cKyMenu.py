@@ -1,5 +1,5 @@
 from pynput.keyboard import Key, Listener
-from exceptions import IncorrectArguments
+from SimpleR0cKyMenu.exceptions import IncorrectArguments
 from os import name, system
 
 class Menu:
