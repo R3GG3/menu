@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'SimpleR0cKyMenu',         # How you named your package folder (MyLib)
   packages = ['SimpleR0cKyMenu'],   # Chose the same as "name"
-  version = '0.31',      # Start with a small number and increase it with every change you make
+  version = '0.32',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Creating Simple Menu for your program',   # Give a short description about your library
   author = 'R0cKy',                   # Type in your name
