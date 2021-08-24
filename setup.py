@@ -4,22 +4,22 @@ setup(
   name = 'menu',         # How you named your package folder (MyLib)
   packages = ['menu'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
-  license='GNU General Public License v3.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
+  license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Creating Simple Menu for your program',   # Give a short description about your library
   author = 'R0cKy',                   # Type in your name
   author_email = 'konrad.soczi@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  url = 'https://github.com/R3GG3/menu',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/R3GG3/menu/archive/refs/tags/v0.1.tar.gz',    # I explain this later on
   keywords = ['MENU', 'SIMPLE', 'PYTHON'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'validators',
-          'beautifulsoup4',
+          'os',
+          'pynput',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
     'Topic :: Software Development :: Build Tools',
-    'License :: OSI Approved :: GNU General Public License v3.0',   # Again, pick a license
+    'License :: OSI Approved :: MIT License',   # Again, pick a license
     'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to suppor
   ],
 )
